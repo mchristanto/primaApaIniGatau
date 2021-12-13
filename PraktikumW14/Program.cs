@@ -19,7 +19,7 @@ namespace PraktikumW14
             Console.WriteLine("Output :");
             int[,] prima = new int[row, column];
 
-            for (int i = 2; i <= row; i++)
+            for (int i = 2; i <= 100; i++)
             {
                 bool prime = true;
                 for (int j = 2; j < i; j++)
@@ -32,7 +32,8 @@ namespace PraktikumW14
                 if (prime)
                 {
                     Console.Write(i + " ");
-                }            
+                }
+            
                 
             }
         }
