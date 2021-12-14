@@ -4,6 +4,7 @@ namespace PraktikumW14
 {
     class Program
     {
+        //dibantu pak ct
         static void prima(int input)
         {
             int counter = 0;
